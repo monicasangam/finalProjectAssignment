@@ -16,6 +16,22 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Final Project MVC</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.php">Home</a></li>
+            <li><a href="login.php">Login</a></li>
+            <li><a href="register.php">Register</a></li>
+            <li><a href="userProfile.php">User Profile</a></li>
+            <li><a href="task.php">Tasks</a></li>
+            <li><a href="todoList.php">All Tasks</a></li>
+            <li><a href="validateEmail.php">Validate Email</a></li>
+        </ul>
+    </div>
+</nav>
 <?php
 
 //display errors in php
